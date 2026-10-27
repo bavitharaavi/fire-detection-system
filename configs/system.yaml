@@ -1,0 +1,10 @@
+fusion:
+  window: 15              # frames averaged before a vision score counts
+  warning_score: 0.35
+  alarm_score: 0.6
+  temp_warn_c: 45.0
+  temp_alarm_c: 57.0
+  smoke_warn_ppm: 300.0
+  smoke_alarm_ppm: 600.0
+  vision_weight: 0.6
+  sensor_weight: 0.4

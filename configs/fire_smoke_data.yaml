@@ -1,0 +1,10 @@
+# YOLO dataset definition. Download a fire/smoke dataset in YOLO format
+# (see data/README.md) and place it so these paths resolve.
+path: data/fire_smoke
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: fire
+  1: smoke
